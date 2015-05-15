@@ -1,0 +1,69 @@
+html {
+    font-family: sans-serif;
+    background-color: white;
+}
+#table {
+    background-color: aliceblue;
+    border: 3px groove;
+    border-collapse: collapse;
+    color: whitesmoke;
+    display: table;
+    margin: 1em auto;
+    width: 60em;
+}
+td {
+    color: #aabbdd;
+    padding: 5px;
+}
+tbody > tr > td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+table > caption {
+    background-color: rgba(250,200,250,.1);
+    border: 1px outset black;
+    display: table-caption;
+    margin: 0.5em auto 1em;
+    padding: 10px;
+    width: 30em;
+    color: black;
+}
+table > thead > tr {
+    color: rosybrown;
+    font-family: sans-serif;
+}
+#col {
+    margin: 2px;
+}
+tr:nth-child(2n) {
+    background-color: rgba(175, 220, 255, 0.3);
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+}
+tr:nth-child(2n+1) {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: white;
+    empty-cells: show;
+}
+table {
+    display: table;
+    margin: auto;
+    width: 90%;
+}
+a[href] {
+    color: blue;
+}
+a[href]:hover {
+    color: black;
+    font-weight: bold;
+}
+thead > tr > th {
+    border: 2px outset lavender;
+    border-collapse: collapse;
+    color: black;
+    padding: 10px;
+}

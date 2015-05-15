@@ -1,0 +1,57 @@
+#table {
+    background-attachment: fixed;
+    background-image: url("rainbow.jpg");
+    background-size: 100% 100%;
+    display: table;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+table {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px ridge white;
+}
+table > caption {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: red orange yellow greenyellow;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    font-variant: small-caps;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+table > thead > tr >th {
+    color: white;
+    font-variant: small-caps;
+    background-color: rgba(0,0,0,.5);
+    border-collapse: collapse;
+    border: none;
+    border-radius: 5px;
+    padding: .5em;
+    text-decoration: underline;
+}
+tr > td {
+    background-color: rgba(22, 50, 100, 0.15);
+    border: medium none;
+    border-collapse: collapse;
+    border-radius: 5px;
+    color: black;
+    empty-cells: show;
+    font-variant: small-caps;
+    padding: 0.2em;
+}
+
+a[href]:link {
+    color: blue;
+}
+a[href]:hover {
+    color: yellow;
+    text-decoration: none;
+}
